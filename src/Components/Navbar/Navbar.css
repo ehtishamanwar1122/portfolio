@@ -1,0 +1,61 @@
+/* Navbar Styles */
+.navbar {
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  background-color:#14b7e8 ;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 20px;
+  justify-content: space-between;
+}
+
+.nav-item {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-icon {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+/* Cloudy Background Styles */
+body {
+  background: url('clouds.jpg') repeat-x;
+  background-size: auto;
+  background-color: #1e3d59; /* Fallback background color */
+  margin: 0;
+  padding: 0;
+}
+
+/* Adjust the background image opacity as needed */
+.navbar {
+  background-color: rgba(30, 61, 89, 0.8); /* Semi-transparent background color */
+}
+
+.nav-item a:hover {
+  color: #196174; /* Change the text color on hover to your desired color */
+  background-color: #1c488f454; /* Change the background color on hover to your desired color */
+  border-radius: 5px; /* Optional: Add border-radius for a rounded effect */
+  transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition on hover */
+}
